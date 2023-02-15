@@ -1,6 +1,6 @@
 # Pic2Word
 
-This is an open source implementation of [Pic2Word](arxiv_link). This is not an
+This is an open source implementation of [Pic2Word](https://arxiv.org/pdf/2302.03084.pdf). This is not an
 officially supported Google product.
 
 
@@ -97,6 +97,11 @@ This demo will generate a directory which includes html file and an image direct
 If you found this repository useful, please consider citing:
 
 ```bibtex
-@article{
+@article{saito2023pic2word,
+  title={Pic2Word: Mapping Pictures to Words for Zero-shot Composed Image Retrieval},
+  author={Saito, Kuniaki and Sohn, Kihyuk and Zhang, Xiang and Li, Chun-Liang and Lee, Chen-Yu and Saenko, Kate and Pfister, Tomas},
+  journal={arXiv preprint arXiv:2302.03084},
+  year={2023}
 }
+
 ```
