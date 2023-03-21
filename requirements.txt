@@ -34,7 +34,7 @@ pyparsing==2.4.7
 python-louvain==0.15
 pyyaml==5.4.1
 rdflib==5.0.0
-sentry-sdk==1.1.0
+sentry-sdk==1.14.0
 shortuuid==1.0.1
 sklearn==0.0
 smmap==4.0.0
