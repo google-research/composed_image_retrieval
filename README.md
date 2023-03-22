@@ -37,7 +37,7 @@ export PYTHONPATH="$PYTHONPATH:$PWD/src"
 export PYTHONWARNINGS='ignore:semaphore_tracker:UserWarning'
 ```
 ### Pre-trained model
-The model is available in [GoogleDrive]().
+The model is available in [GoogleDrive](https://drive.google.com/file/d/1IxRi2Cj81RxMu0ViT4q4nkfyjbSHm1dF/view?usp=sharing).
 
 ### Sample running code for training:
 
