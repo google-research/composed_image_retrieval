@@ -64,6 +64,7 @@ python src/eval_retrieval.py \
     --resume /path/to/checkpoints \
     --eval-mode $data_name \ ## replace with coco, imgnet, or cirr
     --gpu $gpu_id
+    --model ViT-L/14
 ```
 
 Evaluation on fashion-iq (shirt or dress or toptee)
@@ -74,6 +75,7 @@ python src/eval_retrieval.py \
     --eval-mode fashion \
     --source $cloth_type \ ## replace with shirt or dress or toptee
     --gpu $gpu_id
+    --model ViT-L/14
 ```
 
 ### Demo:
@@ -89,6 +91,7 @@ python src/demo.py \
     --prompts "prompt1,prompt2,..." \ #prompts. Use * to indicate the token to be replaced with an image token. e.g., "a sketch of *"
     --demo-out $path_demo \ # directory to generate html file and image directory.
     --gpu $gpu_id
+    --model ViT-L/14
 ```
 This demo will generate a directory which includes html file and an image directory. Download the directory and open html to see results.
 
