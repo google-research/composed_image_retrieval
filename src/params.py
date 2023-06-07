@@ -247,6 +247,10 @@ def parse_args():
         help="Use the openai pretrained models.",
     )
     # arguments for distributed training
+    parser.add_argument("--distributed",
+        default=False,
+        action="store_true",
+        help="Whether to do distribute the training on multiple machines")
     parser.add_argument(
         "--dist-url",
         default="tcp://127.0.0.1:6100",
