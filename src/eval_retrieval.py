@@ -346,10 +346,8 @@ def main():
     args.log_level = logging.DEBUG if args.debug else logging.INFO
     log_queue = setup_primary_logging(args.log_path, args.log_level)
     args.world_size = 1
-    try:
-        main_worker(args.gpu, None, log_queue, args)
-    except:
-        print('evaluation done')
+    
+    main_worker(args.gpu, None, log_queue, args)
 
 
 if __name__ == "__main__":
