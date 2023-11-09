@@ -29,7 +29,7 @@ outdated==0.2.1
 pathtools==0.1.2
 promise==2.3
 psutil==5.8.0
-pyarrow==4.0.0
+pyarrow==14.0.1
 pyparsing==2.4.7
 python-louvain==0.15
 pyyaml==5.4.1
